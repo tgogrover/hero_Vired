@@ -1,0 +1,16 @@
+{
+    "status": "201",
+    "message": "Success",
+    "success": true,
+    "data": {
+        "legalSignup": {
+            "Name": "Tushar Grover",
+            "Password": "$2a$10$eLuGYFgGB/OT0RFQVWi/oucXYUvs3xryC5x8SAkhQdCY3DUj42Wj.",
+            "Email": "grow393@gmail.com",
+            "Mobile_Number": 8950887756,
+            "_id": "62f1fdbada57c4bad93d9e70",
+            "date": "2022-08-09T06:24:58.000Z",
+            "__v": 0
+        }
+    }
+}

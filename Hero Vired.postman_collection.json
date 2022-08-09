@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "6c73473e-d1ec-4b06-ae34-67f0f74567c0",
+		"name": "Hero Vired",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12387678"
+	},
+	"item": [
+		{
+			"name": "user signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Tushar Grover\",\r\n    \"contacts\":8950887756,\r\n    \"email\":\"grow393@gmail.com\",\r\n     \"password\":\"8950887756\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"grow393@gmail.com\",\r\n    \"password\":\"8950887756\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmYxZWYyNjQ0OTkyNGNlNDQ2Y2E4MzUiLCJFbWFpbCI6Imdyb3czOTNAZ21haWwuY29tIiwiaWF0IjoxNjYwMDI1NjkyfQ.SraGNU1iRP1MAjPY1tuWTquOuA39fa54VlNCN8ecdlQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Name\":\"M.tech (Mechanical)\",\"Image_Url\":\"mech_s3_DCRUST.com\",\"University_Name\":\"GJU,Hisar\",\"Faculty_Profile\":\"Associate Proffessor at GJU ,Hisar\",\r\n        \"Learning_Hours_And_Duration\":\"40-50 Hours per Week\",\"Price\":400000,\"Certificate\":\"certi-GJU-Mtech-s3-Sonipat.com\",\"Eligibility_Criteria\":\"12 pass from any board\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/createCourse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"createCourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmYxZWYyNjQ0OTkyNGNlNDQ2Y2E4MzUiLCJFbWFpbCI6Imdyb3czOTNAZ21haWwuY29tIiwiaWF0IjoxNjYwMDI1NjkyfQ.SraGNU1iRP1MAjPY1tuWTquOuA39fa54VlNCN8ecdlQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Name\":\"B.E.(Mech.)\",\"_id\":\"62f207d20732b2c98ab1ea75\",\"Image_Url\":\"s3_MECH_DCRUST.com\",\"Faculty_Profile\":\"Associate Professor AT DCRUST,Muthal\",\"Price\":400000}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/updateCourse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"updateCourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmYxZWYyNjQ0OTkyNGNlNDQ2Y2E4MzUiLCJFbWFpbCI6Imdyb3czOTNAZ21haWwuY29tIiwiaWF0IjoxNjYwMDI1NjkyfQ.SraGNU1iRP1MAjPY1tuWTquOuA39fa54VlNCN8ecdlQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\":\"62f20dd84a844f69af6b81f9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/deleteCourse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"deleteCourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all Courses/ get a course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmYxZWYyNjQ0OTkyNGNlNDQ2Y2E4MzUiLCJFbWFpbCI6Imdyb3czOTNAZ21haWwuY29tIiwiaWF0IjoxNjYwMDI1NjkyfQ.SraGNU1iRP1MAjPY1tuWTquOuA39fa54VlNCN8ecdlQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/getCourses?_id=62f207a80732b2c98ab1ea71",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"getCourses"
+					],
+					"query": [
+						{
+							"key": "_id",
+							"value": "62f207a80732b2c98ab1ea71"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

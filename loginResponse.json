@@ -1,0 +1,11 @@
+{
+    "status": "200",
+    "success": true,
+    "message": "Login  Successfully with credential =>",
+    "data": {
+        "_id": "62f1fdbada57c4bad93d9e70",
+        "Email": "grow393@gmail.com",
+        "Name": "Tushar Grover",
+        "Mobile_Number": 8950887756
+    }
+}

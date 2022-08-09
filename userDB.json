@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "62f1efb15638170074f5992d"
+  },
+  "Name": "Tushar Grover",
+  "Password": "$2a$10$1l.g2LzCeo91XrVglfu7teaDwyfAu19HnaK.8zPSjla6fmiy56uQ6",
+  "Email": "ramk63752@gmail.com",
+  "Mobile_Number": 9034608052,
+  "date": {
+    "$date": "2022-08-09T05:25:05Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f1fdbada57c4bad93d9e70"
+  },
+  "Name": "Tushar Grover",
+  "Password": "$2a$10$eLuGYFgGB/OT0RFQVWi/oucXYUvs3xryC5x8SAkhQdCY3DUj42Wj.",
+  "Email": "grow393@gmail.com",
+  "Mobile_Number": 8950887756,
+  "date": {
+    "$date": "2022-08-09T06:24:58Z"
+  },
+  "__v": 0
+}]

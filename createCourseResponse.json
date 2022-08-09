@@ -1,0 +1,20 @@
+{
+    "status": "201",
+    "success": true,
+    "message": "Course Created Successfully =>",
+    "data": {
+        "CreateCourse": {
+            "Name": "B.tech (ECE)",
+            "Image_Url": "ece_s3_GJU.com",
+            "University_Name": "GJU,Hisar",
+            "Faculty_Profile": "Associate Proffessor at GJU ,Hisar",
+            "Learning_Hours_And_Duration": "40-50 Hours per Week",
+            "Price": 400000,
+            "Certificate": "certi-ECE-s3-Hisar.com",
+            "Eligibility_Criteria": "12 pass from any board",
+            "_id": "62f2065297cc031178d553ee",
+            "date": "2022-08-09T07:01:38.000Z",
+            "__v": 0
+        }
+    }
+}

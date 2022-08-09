@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "62f2065297cc031178d553ee"
+  },
+  "Name": "B.tech (ECE)",
+  "Image_Url": "ece_s3_GJU.com",
+  "University_Name": "GJU,Hisar",
+  "Faculty_Profile": "Associate Proffessor at GJU ,Hisar",
+  "Learning_Hours_And_Duration": "40-50 Hours per Week",
+  "Price": 400000,
+  "Certificate": "certi-ECE-s3-Hisar.com",
+  "Eligibility_Criteria": "12 pass from any board",
+  "date": {
+    "$date": "2022-08-09T07:01:38Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f206e50732b2c98ab1ea6d"
+  },
+  "Name": "B.tech (CSE)",
+  "Image_Url": "cse_s3_GJU.com",
+  "University_Name": "GJU,Hisar",
+  "Faculty_Profile": "Associate Proffessor at GJU ,Hisar",
+  "Learning_Hours_And_Duration": "40-50 Hours per Week",
+  "Price": 400000,
+  "Certificate": "certi-ECE-s3-Hisar.com",
+  "Eligibility_Criteria": "12 pass from any board",
+  "date": {
+    "$date": "2022-08-09T07:04:05Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f207a80732b2c98ab1ea71"
+  },
+  "Name": "B.tech (CSE)",
+  "Image_Url": "cse_s3_DCRUST.com",
+  "University_Name": "DCRUST,Murthal",
+  "Faculty_Profile": "Associate Proffessor at DCRUST ,Murthal",
+  "Learning_Hours_And_Duration": "40-50 Hours per Week",
+  "Price": 400000,
+  "Certificate": "certi-ECE-s3-Hisar.com",
+  "Eligibility_Criteria": "12 pass from any board",
+  "date": {
+    "$date": "2022-08-09T07:07:20Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f207f20732b2c98ab1ea78"
+  },
+  "Name": "B.tech (Mechanical)",
+  "Image_Url": "mech_s3_DCRUST.com",
+  "University_Name": "GJU,Hisar",
+  "Faculty_Profile": "Associate Proffessor at GJU ,Hisar",
+  "Learning_Hours_And_Duration": "40-50 Hours per Week",
+  "Price": 400000,
+  "Certificate": "certi-GJU-s3-Sonipat.com",
+  "Eligibility_Criteria": "12 pass from any board",
+  "date": {
+    "$date": "2022-08-09T07:08:34Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f20df64a844f69af6b81fd"
+  },
+  "Name": "M.tech (Mechanical)",
+  "Image_Url": "mech_s3_DCRUST.com",
+  "University_Name": "GJU,Hisar",
+  "Faculty_Profile": "Associate Proffessor at GJU ,Hisar",
+  "Learning_Hours_And_Duration": "40-50 Hours per Week",
+  "Price": 400000,
+  "Certificate": "certi-GJU-Mtech-s3-Sonipat.com",
+  "Eligibility_Criteria": "12 pass from any board",
+  "date": {
+    "$date": "2022-08-09T07:34:14Z"
+  },
+  "__v": 0
+}]
